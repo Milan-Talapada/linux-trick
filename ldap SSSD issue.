@@ -1,0 +1,7 @@
+sudo pacman -S downgrade
+uninstall ipa-client --uninstall
+remove freeipaclietn 
+restart 
+remove sssd package and other sssd data delete in etc,var/lib,var/log & sss folder 
+sudo pacman -S downgrade
+sudo pacman -S downgrade sssd
