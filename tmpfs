@@ -1,0 +1,3 @@
+/etc/systemd
+sudo nano logind.conf
+increase #RuntimeDirectorySize=20%
