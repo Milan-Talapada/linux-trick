@@ -1,0 +1,7 @@
+If anyone of you get error like 
+
+******************************************************************************
+Your system is configured to use the obsolete tool sss_ssh_knownhostsproxy.
+Please read the sss_ssh_knownhosts(1) man page to learn about its replacement.
+******************************************************************************
+Just run below command sudo -e /etc/ssh/ssh_config and then  Add KnownHostsCommand /usr/bin/sss_ssh_knownhosts %H and comment ProxyCommand /usr/bin/sss_ssh_knownhostsproxy -p %p %h
